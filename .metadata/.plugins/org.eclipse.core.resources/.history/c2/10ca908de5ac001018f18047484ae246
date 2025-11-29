@@ -1,0 +1,28 @@
+package OOP1;
+
+public class Customer {
+
+	private String id;
+	private String customerNumber;
+	private String phone;
+	
+	public String getId() {
+		return id;
+	
+		this.id = id;
+	}
+	public String getCustomerNumber() {
+		return customerNumber;
+	}
+	public void setCustomerNumber(String customerNumber) {
+		this.customerNumber = customerNumber;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	
+	
+}

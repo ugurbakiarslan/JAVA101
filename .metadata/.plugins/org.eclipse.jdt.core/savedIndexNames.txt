@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+/home/ugurbakiarslan/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1434627168.index
+1865797976.index
+3923058398.index
+3927879410.index
+3597111344.index

@@ -1,0 +1,36 @@
+package Calisma;
+
+import java.lang.runtime.SwitchBootstraps;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int bakiye = 11250;
+		int borc = 10000;
+		int tutar;
+		
+		
+		
+		Scanner scan = new Scanner(System.in);
+		Scanner scann = new Scanner(System.in);
+		System.out.println("değer gir:");
+		String tercih = scan.nextLine();
+		
+		switch(tercih){
+			case "bakiye":
+				System.out.println(bakiye);
+				break;
+			case "borc":
+				System.out.println(borc);
+				break;
+			case "para cekme":
+				System.out.println("Cekmek istediginiz tutarı girin");
+				tutar= scann.nextInt()
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package Calisma;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String username = "ugur";
+		String password = "123baki";
+		
+		System.out.println("Kullanici Adini Girin:");
+		Scanner scan = new Scanner(System.in);
+		String user_name = scan.nextLine();
+		System.out.println("Parolanizi girin:");
+		String Password = scan.nextLine();
+		
+		if (user_name.equals(user_name)&&password.equals(Password)) {
+			System.out.println("giriş başarılı");
+		}
+		else System.out.println("yanlış");
+		
+		
+	}
+
+}

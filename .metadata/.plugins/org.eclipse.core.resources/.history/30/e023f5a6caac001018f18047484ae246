@@ -1,0 +1,36 @@
+package OOP1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+					// Set Values
+		Product product1 = new Product();
+		product1.name= "Delongi Kahve Makinesi";
+		product1.unitPrice= 7500;
+		product1.discount= 7;
+		product1.unitsInStocks= 3;
+		product1.imageUrl= "bilmemne1.jpg";
+		
+		Product product2 = new Product();
+		product1.name= "Smeg Kahve Makinesi";
+		product1.unitPrice= 6500;
+		product1.discount= 8;
+		product1.unitsInStocks= 2;
+		product1.imageUrl= "bilmemne2.jpg";
+		
+		Product product3 = new Product();
+		product1.name= "Kitchen Aid Kahve Makinesi";
+		product1.unitPrice= 4500;
+		product1.discount= 9;
+		product1.unitsInStocks= 4;
+		product1.imageUrl= "bilmemne3.jpg";
+		
+					// Get Values
+		
+		System.out.println(product1.name);
+
+	}
+
+}

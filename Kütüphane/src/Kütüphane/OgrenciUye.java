@@ -1,0 +1,27 @@
+package Kütüphane;
+
+public class OgrenciUye extends Uye {
+
+	
+	private String subeNo;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getSubeNo() {
+		return subeNo;
+	}
+	public void setSubeNo(String subeNo) {
+		this.subeNo = subeNo;
+	}
+	
+}

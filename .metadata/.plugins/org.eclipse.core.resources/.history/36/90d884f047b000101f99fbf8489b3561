@@ -1,0 +1,26 @@
+package Calisma;
+
+import java.lang.runtime.SwitchBootstraps;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner Scan = new Scanner(System.in);
+		int tercih = scan.nextInt();
+		
+		switch(tercih){
+			case 1:
+				System.out.println("Girilen değer a");
+				break;
+			case 2:
+				System.out.println("Girilen değer 1");
+				break;
+		}
+		
+		
+	}
+
+}
